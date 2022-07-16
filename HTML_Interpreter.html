@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>LIVE HTML INTERPRETER</title>
+<script>
+    function html() 
+    {
+        Body = document.getElementById("d1")
+        code = document.getElementById("d3")
+        Body.innerHTML = code.value;
+    }
+</script>
+    <link rel="stylesheet" href="HTML_Interpreter.css">
+</head>
+<body>
+    <h1> Write Your HTML Code Here</h1>
+    <div class="Flex">
+        <div class="code">
+            <textarea id="d3" cols="84" rows= "40" onkeyup="html()" style="width: 864px; height: 422px;"></textarea>
+        </div>
+        <div class=" body">
+            <div id="d1" class="interpreter"></div>
+        </div>
+       
+    </div>
+</body>
+</html>

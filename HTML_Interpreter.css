@@ -1,0 +1,44 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.Flex
+{
+    display: flex;
+
+}
+
+h1
+{
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+    font-size: 100px;
+    font-weight: bold;
+
+}
+textarea
+{
+    resize: inline;
+    margin: 28px;
+    padding: 100px;
+    align-content: center;
+
+}
+
+.body
+{
+    width: 50%;
+    height: 650px;
+    border: 0px solid black;
+    display: inline-block;
+}
+.interpreter
+{
+    width: 96%;
+    height: 630px;
+    margin: 5px;
+    padding: 5px;
+    border: 1px solid black;
+    display: inline-block;
+
+}
